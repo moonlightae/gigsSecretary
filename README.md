@@ -1,0 +1,3 @@
+- Project 안에 datas\ 경로 추가
+- secretaryRLFinal 파일 실행
+-> 성공!
