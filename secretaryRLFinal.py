@@ -5,16 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-
-
-# =========================
 # Directory setup
-# =========================
 def make_unique_dir(base_path):
-    """
-    base_path가 존재하면 base_path_1, base_path_2, ... 중
-    존재하지 않는 경로를 만들어 반환
-    """
     if not os.path.exists(base_path):
         os.makedirs(base_path)
         return base_path
@@ -35,9 +27,7 @@ SAVE_DIR = make_unique_dir(BASE_SAVE_DIR)
 print(f"Saving results to: {SAVE_DIR}")
 os.makedirs(SAVE_DIR, exist_ok=True)
 
-# =========================
 # Hyperparameters
-# =========================
 N = 10000
 EPOCHS = 100000
 lr = 0.01
@@ -47,9 +37,7 @@ BLOCK = 1000
 TARGET = 1 / np.e
 ERROR_LEVELS = [1e-2, 1e-3, 1e-4, 1e-5]
 
-# =========================
 # Environment
-# =========================
 def generate_candidates(N):
     abilities = np.random.rand(N)
     order = np.random.permutation(N)
@@ -77,9 +65,7 @@ def run_episode_tau(abilities, tau):
     reward = int(abilities[chosen_index] == np.max(abilities))
     return chosen_index, reward
 
-# =========================
 # Training
-# =========================
 theta = 0.0
 baseline = 0.0
 
@@ -115,9 +101,7 @@ for epoch in range(EPOCHS):
             if abs(mu - TARGET) / TARGET < e:
                 error_hit_epoch[e] = epoch
 
-# =========================
 # Save plots
-# =========================
 plt.figure(figsize=(10, 5))
 plt.plot(range(EPOCHS), chosen_indices, alpha=0.5)
 plt.axhline(TARGET * N, color='red', linestyle='--')
@@ -162,9 +146,7 @@ png_path = os.path.join(SAVE_DIR, "success_rate_blocks.png")
 plt.savefig(png_path, dpi=300, bbox_inches="tight")
 plt.close()
 
-# =========================
 # Save logs
-# =========================
 txt_path = os.path.join(SAVE_DIR, "logs.txt")
 
 with open(txt_path, "w", encoding="utf-8") as f:
