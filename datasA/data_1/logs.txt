@@ -1,0 +1,19 @@
+[Config] N=200, runs=2, device=cuda
+[Target] p*(N) = 0.369461  (k*=73, k*/N=0.365000)
+[Asymptote] 1/e = 0.367879  (gap |p*(N)-1/e| = 0.001581)
+[Thresholds] relative error to p*(N): 10%, 1%, 0.1%
+
+===== Run 1/2 (seed=1234) =====
+10.000% -> reached: epoch=10, time=39.44s, p_hat=0.389350, rel_error=5.383364%
+1.000% -> reached: epoch=30, time=175.72s, p_hat=0.365850, rel_error=0.977260%
+0.100% -> NOT reached (last p_hat ~ 0.468250)
+
+===== Run 2/2 (seed=1345) =====
+10.000% -> reached: epoch=5, time=23.78s, p_hat=0.375850, rel_error=1.729389%
+1.000% -> reached: epoch=185, time=1213.36s, p_hat=0.367050, rel_error=0.652462%
+0.100% -> NOT reached (last p_hat ~ 0.436050)
+
+=== Average over reached runs only ===
+10% : reached 2/2, avg_epoch=7.50, avg_time=31.61s
+1% : reached 2/2, avg_epoch=107.50, avg_time=694.54s
+0.1% : reached 0/2, avg_epoch=nan, avg_time=nans

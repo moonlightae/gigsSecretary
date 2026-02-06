@@ -1,0 +1,9 @@
+epoch: 100000
+N: 10000
+
+Tau convergence epochs (relative error 기준)
+Error < 1.0000% : epoch 1010
+Error < 0.1000% : epoch 1190
+Error < 0.0100% : epoch 2666
+Error < 0.0010% : epoch 2666
+

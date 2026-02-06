@@ -1,0 +1,54 @@
+===== Experiment 1 =====
+1.000% → 447 trials, 6.15s
+0.100% → 487 trials, 6.44s
+0.010% → 511 trials, 6.54s
+
+===== Experiment 2 =====
+1.000% → 27 trials, 0.12s
+0.100% → 1,478 trials, 6.49s
+0.010% → 1,506 trials, 6.61s
+
+===== Experiment 3 =====
+1.000% → 30 trials, 0.13s
+0.100% → 106 trials, 0.49s
+0.010% → 3,099 trials, 16.68s
+
+===== Experiment 4 =====
+1.000% → 19 trials, 0.15s
+0.100% → 106 trials, 0.75s
+0.010% → 3,422 trials, 16.16s
+
+===== Experiment 5 =====
+1.000% → 186 trials, 0.81s
+0.100% → 193 trials, 0.84s
+0.010% → 193 trials, 0.84s
+
+===== Experiment 6 =====
+1.000% → 19 trials, 0.08s
+0.100% → 389 trials, 1.70s
+0.010% → 405 trials, 1.77s
+
+===== Experiment 7 =====
+1.000% → 27 trials, 0.12s
+0.100% → 144 trials, 0.61s
+0.010% → 5,013 trials, 24.16s
+
+===== Experiment 8 =====
+1.000% → 214 trials, 0.93s
+0.100% → 220 trials, 0.95s
+0.010% → 280 trials, 1.21s
+
+===== Experiment 9 =====
+1.000% → 165 trials, 0.73s
+0.100% → 185 trials, 0.81s
+0.010% → 492 trials, 2.13s
+
+===== Experiment 10 =====
+1.000% → 35 trials, 0.15s
+0.100% → 182 trials, 0.79s
+0.010% → 10,082 trials, 48.63s
+
+=== Average Time to Reach Threshold ===
+1.000% : 0.94s
+0.100% : 1.99s
+0.010% : 12.47s

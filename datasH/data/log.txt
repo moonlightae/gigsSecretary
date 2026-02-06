@@ -1,0 +1,4 @@
+=== Threshold reached ===
+1.000% : 27 trials, 0.97s
+0.100% : 106 trials, 2.95s
+0.010% : 1,476 trials, 8.74s
