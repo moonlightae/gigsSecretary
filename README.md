@@ -4,4 +4,5 @@
 **강화학습버전 실행**
 - Project 안에 datasRL\ 경로 추가
 - secretaryRLFinal 파일 실행
--> 성공!
+→ 성공!
+- N, epoch를 바꾸고 싶으면 하이퍼파라미터 내용을 참고하세요~
