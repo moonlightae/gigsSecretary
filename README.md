@@ -9,7 +9,7 @@
 - N, epoch를 바꾸고 싶으면 하이퍼파라미터 내용을 참고하세요~
 
 **Attention 버전 실행**
-- 
+- asdf
 
 **Heuristic 버전 실행**
 - secretaryHeuristic 파일 실행
