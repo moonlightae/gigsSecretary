@@ -9,7 +9,9 @@
 - N, epoch를 바꾸고 싶으면 하이퍼파라미터 내용을 참고하세요~
 
 **Attention 버전 실행**
-- 
+- secretaryAttention2 파일 실행
+- log가 콘솔창에 출력되고, plot이 png 형태로 출력됩니다.
+- 출력된 파일은 데이터 소실의 위험이 없도록 datasA\data_N 경로 안에 보관해주세요~
 
 **Heuristic 버전 실행**
 - secretaryHeuristic2 파일 실행
